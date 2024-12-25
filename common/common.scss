@@ -1,0 +1,28 @@
+@media (min-width: 768px) { /* Adjust breakpoint as needed */
+  .featured-banner-link h3 {
+    font-size: 12px !important; /* Decrease font size for desktop */
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    margin: 0; /* Optional: reset margins */
+  }
+
+  .featured-banner-link svg {
+    width: 16px; /* Decrease icon size for desktop */
+    height: 16px; /* Decrease icon size for desktop */
+  }
+}
+
+
+.above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper, .below-site-header-outlet.welcome-link-banner-connector .welcome-wrapper {
+  position: relative;
+  width: 95%;
+  flex: 0 1 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  box-shadow: var(--shadow-card);
+  margin: 2.5em auto;
+  background: var(--secondary);
+}
+
